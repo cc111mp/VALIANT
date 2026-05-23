@@ -12,89 +12,46 @@ Simon C. K. Chan, Bingxin Huang, Hannah H. Kim, Wentao Yu, Yinqian Luo, Terence 
 
 ## Overview
 
-This repository provides the implementation of **VALIANT**, a vision-authenticity language framework for **Citri Reticulatae Pericarpium** analysis.
+**VALIANT** is a vision-authenticity language framework for **Citri Reticulatae Pericarpium** analysis. It integrates expert-driven visual assessment with aligned numerical and textual descriptors to support interpretable age classification and authenticity verification.
 
-VALIANT is designed to integrate expert-driven visual assessment with aligned numerical and textual descriptors. The framework aims to support authenticity-oriented interpretation by connecting image-based evidence, structured quantitative descriptors, and language-based reasoning in a unified workflow.
-
-The study focuses on smartphone-image analysis for age classification and authenticity verification. In particular, VALIANT targets age groups including 1, 6, 10, 15, and 20 years, and evaluates authenticity against standard operating procedure (SOP) mimic samples.
+The study focuses on smartphone-image analysis, including age classification for 1, 6, 10, 15, and 20 year samples, and authenticity verification against standard operating procedure (SOP) mimic samples.
 
 ---
 
-## Release Status
-
-The repository page is being prepared for the full code release.
-
-| Component | Status |
-|---|---|
-| Paper title and authors | Available |
-| Paper link | Available |
-| Source code | Preparing for release |
-| Expert modules | Preparing for release |
-| Numerical-textual descriptors | Preparing for release |
-| Training and evaluation instructions | Preparing for release |
-| Results and figures | Preparing for release |
-
----
-
-## Paper Details
+## At A Glance
 
 | Item | Description |
 |---|---|
 | Task | Vision-authenticity analysis of Citri Reticulatae Pericarpium |
-| Input data | Smartphone images |
-| Prediction targets | Age classification and authenticity verification |
+| Inputs | Smartphone images |
+| Targets | Age classification and authenticity verification |
 | Age classes | 1, 6, 10, 15, and 20 years |
-| Authenticity setting | Verification against SOP mimic samples |
-| Core method | Integrated expert framework with aligned numerical-textual descriptors |
+| Authenticity setting | Authentic samples vs. SOP mimic samples |
+| Core method | Integrated experts + aligned numerical-textual descriptors |
 | Venue | Advanced Intelligent Systems, 2026 |
 
 ---
 
 ## Highlights
 
-- Vision-authenticity language framework for Citri Reticulatae Pericarpium.
+- Vision-authenticity language framework for CRP assessment.
 - Integrated expert modules for authenticity-oriented visual analysis.
-- Aligned numerical-textual descriptors for interpretable multimodal reasoning.
-- Designed to connect image evidence, quantitative features, and textual descriptions.
-- Smartphone-image workflow for practical visual assessment.
-- Age classification across 1, 6, 10, 15, and 20 years.
-- Authenticity verification against SOP mimic samples.
+- Aligned numerical-textual descriptors for interpretable reasoning.
+- Smartphone-image workflow for practical sample assessment.
 
 ---
 
-## Key Ideas
+## Release Status
 
-- **Vision-authenticity reasoning:** Connects visual cues to authenticity-oriented language outputs.
-- **Integrated experts:** Combines multiple expert modules to support robust assessment.
-- **Numerical-textual descriptor alignment:** Links quantitative descriptors with interpretable textual descriptions.
-- **Smartphone-image accessibility:** Targets a practical image acquisition setting rather than specialized imaging hardware.
-- **Age and authenticity tasks:** Supports both CRP age classification and mimic-sample verification.
-
----
-
-## Method Summary
-
-VALIANT combines visual analysis with expert knowledge and language-based interpretation. The framework uses aligned numerical and textual descriptors to bridge quantitative measurements and human-readable descriptions, supporting a more interpretable authenticity assessment workflow.
-
-The full implementation will include model components, descriptor construction utilities, training and evaluation scripts, configuration files, and reproducible examples.
-
----
-
-## Keywords
-
-Citri Reticulatae Pericarpium, vision-language framework, authenticity verification, age classification, smartphone imaging, numerical descriptors, textual descriptors, interpretable AI.
-
----
-
-## Planned Contents
-
-- Source code for VALIANT.
-- Environment and dependency files.
-- Expert module definitions.
-- Numerical and textual descriptor construction tools.
-- Training and evaluation scripts.
-- Configuration files for reproducible experiments.
-- Quantitative results and visual examples.
+| Component | Status |
+|---|---|
+| Paper link | Available |
+| Source code | Preparing for release |
+| Environment file | Preparing for release |
+| Expert modules | Preparing for release |
+| Descriptor construction tools | Preparing for release |
+| Training / evaluation instructions | Preparing for release |
+| Results and figures | Preparing for release |
 
 ---
 
@@ -122,24 +79,35 @@ Environment setup instructions will be added with the full implementation.
 
 ---
 
-## Usage
+## Quick Start
 
 Training, testing, and evaluation commands will be added once the implementation is released.
 
+```bash
+# Example placeholders for the planned release
+python evaluate.py --config configs/valiant_eval.yml
+python train.py --config configs/valiant_train.yml
+```
+
 ---
 
-## Results
+## Main Results
 
 Quantitative results and visual comparisons will be added with the full release.
+
+| Task | Metric | Result | Checkpoint |
+|---|---|---:|---|
+| Age classification | Accuracy / F1 | Preparing for release | Preparing for release |
+| Authenticity verification | Accuracy / F1 | Preparing for release | Preparing for release |
+| Descriptor alignment | Retrieval / agreement metrics | Preparing for release | Preparing for release |
 
 ---
 
 ## Release Checklist
 
 - [x] Repository page
-- [x] Paper title and authors
-- [x] Project description
 - [x] Paper link
+- [x] Project description
 - [ ] Source code
 - [ ] Environment file
 - [ ] Expert modules
